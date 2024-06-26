@@ -3,64 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gptinfluence.com - 도메인 판매 중</title>
+    <title>도메인 판매 문의</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin: 0;
         }
-        .container {
-            background-color: white;
+        .form-container {
+            border: 1px solid #ccc;
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
+        }
+        .form-container input,
+        .form-container textarea,
+        .form-container button {
             width: 100%;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .contact-form {
-            margin-top: 20px;
-        }
-        input, textarea {
-            width: 100%;
+            margin-bottom: 10px;
             padding: 10px;
-            margin: 5px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-        button {
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            background-color: #28a745;
+        .form-container button {
+            background-color: #4CAF50;
             color: white;
+            border: none;
             cursor: pointer;
         }
-        button:hover {
-            background-color: #218838;
+        .form-container button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>gptinfluence.com</h1>
-        <p>이 도메인은 현재 판매 중입니다. 관심이 있으시면 아래 양식을 작성해주세요.</p>
-        <form class="contact-form" action="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform?usp=sf_link" method="GET">
-            <input type="text" name="entry.YOUR_NAME_FIELD_ID" placeholder="이름" required>
-            <input type="email" name="entry.YOUR_EMAIL_FIELD_ID" placeholder="이메일" required>
-            <textarea name="entry.YOUR_MESSAGE_FIELD_ID" placeholder="메시지" rows="5" required></textarea>
+    <div class="form-container">
+        <h2>도메인 판매 문의</h2>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScg7P9AY3TEWYErrH8WDJuzojoL4yRlxNu_UrRphgysArQ/formResponse" method="post">
+            <input type="text" name="entry.1306206431" placeholder="이름" required>
+            <input type="email" name="entry.147237265" placeholder="이메일" required>
+            <textarea name="entry.2131501271" placeholder="메시지" required></textarea>
             <button type="submit">문의하기</button>
         </form>
     </div>
